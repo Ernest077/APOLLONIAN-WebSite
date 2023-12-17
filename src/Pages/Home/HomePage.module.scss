@@ -1,0 +1,64 @@
+.HomePage {
+    min-height: 780px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding: 80px 0px 20px 0px;
+
+    .Main {
+        width: 70%;
+        margin-top: 20px;
+        .Header {
+            cursor: default;
+
+            :first-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                margin-bottom: 8px;
+                font-family: "Cormorant_Garamond variant0", Tofu;
+            }
+
+            :last-child {
+                display: flex;
+                justify-content: center;
+                color: black;
+                opacity: 50%;
+            }
+        }
+
+        .Content {
+            .SortDiv {
+                height: 45px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding-top: 15px;
+                border-bottom: 1px solid #c4c4c4;
+
+                :first-child {
+                    opacity: 65%;
+                    color: black !important;
+                    cursor: auto;
+                }
+
+                div {
+                    color: black;
+                    cursor: pointer;
+                }
+
+                div:hover {
+                    color: #baad34;
+                }
+            }
+
+            .Jewelry {
+                min-height: 480px;
+                margin: 15px;
+                margin-top: 35px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

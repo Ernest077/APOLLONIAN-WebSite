@@ -1,0 +1,109 @@
+.Footer {
+    padding: 30px;
+    min-height: 220px;
+    background-color: rgb(241, 239, 239);
+    display: flex;
+    justify-content: space-between;
+
+    .FChild1 {
+        width: 660px;
+        cursor: default;
+
+        .FChildSection {
+            font-family: "Cormorant_Garamond variant0", Tofu;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            min-height: 210px;
+            width: 100%;
+            font-size: 13px;
+            gap: 15px;
+
+            p {
+                font-size: 12px;
+                color: rgb(129, 129, 129);
+            }
+        }
+
+        .AppolLLC {
+            font-size: 11px;
+            color: rgb(129, 129, 129);
+        }
+    }
+
+    .FChild2 {
+        width: 400px;
+
+        p {
+            font-size: 14px;
+            color: rgb(129, 129, 129);
+        }
+
+        .SignDiv {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 1px 2px -2px;
+
+            input {
+                padding: 5px;
+                height: 20px;
+                width: 260px;
+                border: none;
+            }
+
+            .SignUP {
+                background-color: white;
+                color: rgb(129, 129, 129);
+                font-size: 11px;
+                height: 30px;
+                width: 60px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .IconsDiv {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            font-size: 25px;
+            margin-top: 25px;
+            min-height: 40px;
+
+            div {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Footer {
+        gap: 10px;
+
+        .FChild2 {
+            width: 260px;
+
+            .SignDiv {
+                justify-content: flex-start;
+
+                input {
+                    width: 110px;
+                }
+            }
+
+            .IconsDiv {
+                display: block;
+                align-items: center;
+
+                div {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.MainProduct {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.JewelryDiv {
+    width: 168px;
+    margin: 10px;
+
+    img {
+        height: 208px;
+        width: 180px;
+    }
+
+    .BuyNow{
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        margin: -115px 0px 0px 60px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        font-size: 14px;
+        opacity: 80%;
+    }
+
+    :first-child {
+        font-size: 12px;
+    }
+
+    :last-child {
+        font-size: 14px;
+        opacity: 0.6;
+    }
+}
+.JewelryDiv:hover{
+    .BuyNow{
+        display: inline;
+    }
+}

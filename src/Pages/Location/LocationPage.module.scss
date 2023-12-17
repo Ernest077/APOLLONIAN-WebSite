@@ -1,0 +1,30 @@
+.LocationPage {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 68px 0px 20px 0px;
+
+    .LocationPageChild {
+        .HeadH1 {
+            font-family: "Cormorant_Garamond variant0", Tofu;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            margin: 15px;
+        }
+
+        .LocInfo {
+            font-family: "Cormorant_Garamond variant0", Tofu;
+            font-size: 15px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        .LocImgDiv {
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+}
